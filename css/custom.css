@@ -1,0 +1,105 @@
+body {
+    margin: 0 auto;
+    font-family: 'Poppins';
+}
+.navbar-expand-lg .navbar-nav{
+    gap: 40px;
+}
+
+.hero-section{
+    padding: 50px 0px;
+    .hero-caption{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+.responsive{
+    width: 100%;
+    }
+}
+.custom-navbar{
+    padding: 15px 0px;
+    position: flex;
+    width: 100%;
+    background: #ffffff;
+    opacity: 0,9;
+
+    .right-menu{
+        display: flex;
+        float: right;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        .right-menu-item{
+            a{
+                color: #666;
+                text-decoration: none;
+            }
+            .bi-list, .bi-x-lg{
+                font-size: 30px;
+            }
+        }
+    }
+.list-menu-wrap{
+    position: absolute;
+    right: 0;
+    text-align: right;
+    background: #fff7f79c;
+    opacity: 0,9;
+    padding: 30px 30px 30px 80px;
+    display: none;
+    .list-menu-item{
+        a {
+            text-align: left;
+            color: #666;
+            text-decoration: none;
+            display: block;
+            padding: 10px 0px;
+        }
+    }
+}
+}
+.btn-outline-warning{
+    color: #000000;
+    margin: 10px;
+    width: 40%;
+    height: 80%;
+}
+
+
+.marketing-button{
+    color: #080808;
+    background-color: #f7de04;
+    border-color: #ffffff;
+    }
+
+.blockcode{
+    background-color: #9c9494be;
+}
+
+.container-number {
+    position: relative;
+    text-align: center;
+    color: #0a0a0a;
+  }
+.kitchen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%
+}
